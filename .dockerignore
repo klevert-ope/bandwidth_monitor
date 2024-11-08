@@ -1,0 +1,5 @@
+.idea
+docker-compose.yml
+test_telegram.py
+test_network_usage.py
+bandwidth_usage.db
