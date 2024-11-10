@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: klevert/bandwidth_monitor:v1.0
+          tags: klevert/bandwidth_monitor:v1.1
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
