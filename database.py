@@ -25,6 +25,7 @@ def log_bandwidth_usage(bytes_used):
     c.execute('INSERT INTO bandwidth_usage (bytes_used) VALUES (?)', (bytes_used,))
     conn.commit()
     conn.close()
+    logger.info(f"Logged bandwidth usage: {bytes_used} bytes")
 
 def get_total_bandwidth_used():
     conn = sqlite3.connect('bandwidth_usage.db')

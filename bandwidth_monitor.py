@@ -18,6 +18,7 @@ def get_network_usage():
 def main():
     # Initialize the database
     init_db()
+    logger.info("Database initialized successfully.")
 
     # Initialize variables
     start_time = datetime.now()
@@ -53,7 +54,7 @@ def main():
                 break
 
             # Wait for a while before the next check
-            time.sleep(3600)  # Check every hour
+            time.sleep(60)  # Check every minute
 
         except Exception as e:
             error_message = f"❌ Error: {str(e)}"
