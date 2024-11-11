@@ -4,9 +4,10 @@ import signal
 import sys
 from datetime import datetime, timedelta
 from config import BANDWIDTH_LIMIT
-from database import init_db, log_bandwidth_usage, get_total_bandwidth_used, get_daily_bandwidth_usage
+from database import init_db, log_bandwidth_usage, update_monthly_bandwidth_usage, get_total_bandwidth_used, get_daily_bandwidth_usage, get_monthly_bandwidth_usage, delete_old_data
 from telegram_bot import send_message_sync
 from logging_config import setup_logging
+from apscheduler.schedulers.background import BackgroundScheduler
 
 # Set up logging
 logger = setup_logging()
@@ -24,6 +25,11 @@ def main():
     start_time = datetime.now()
     last_bandwidth_used = get_network_usage()
 
+    # Schedule the deletion of old data
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(delete_old_data, 'interval', days=1)
+    scheduler.start()
+
     while True:
         try:
             # Get current network usage
@@ -33,12 +39,19 @@ def main():
 
             # Log bandwidth usage
             log_bandwidth_usage(bandwidth_used_since_last_check)
+            update_monthly_bandwidth_usage(bandwidth_used_since_last_check)
 
             # Check if a day has passed
             if datetime.now() - start_time >= timedelta(days=1):
                 # Send daily alert
                 daily_bandwidth_used = get_daily_bandwidth_usage()
                 message = f"📊 Daily Bandwidth Usage: {daily_bandwidth_used / (1024 * 1024):.2f} MB"
+                send_message_sync(message)
+                logger.info(message)
+
+                # Send monthly alert
+                monthly_bandwidth_used = get_monthly_bandwidth_usage()
+                message = f"📊 Monthly Bandwidth Usage: {monthly_bandwidth_used / (1024 * 1024 * 1024):.2f} GB"
                 send_message_sync(message)
                 logger.info(message)
 

@@ -138,3 +138,162 @@
 2024-11-10 12:06:28,096 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
 2024-11-10 12:06:28,096 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
 2024-11-10 12:06:28,096 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:42:47,723 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,723 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,723 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,725 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,725 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,725 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:42:47,777 - bandwidth_monitor - INFO - Logged bandwidth usage: 3014 bytes
+2024-11-11 18:42:47,777 - bandwidth_monitor - INFO - Logged bandwidth usage: 3014 bytes
+2024-11-11 18:42:47,777 - bandwidth_monitor - INFO - Logged bandwidth usage: 3014 bytes
+2024-11-11 18:42:47,785 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 3014 bytes
+2024-11-11 18:42:47,785 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 3014 bytes
+2024-11-11 18:42:47,785 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 3014 bytes
+2024-11-11 18:43:47,839 - bandwidth_monitor - INFO - Logged bandwidth usage: 1119334 bytes
+2024-11-11 18:43:47,839 - bandwidth_monitor - INFO - Logged bandwidth usage: 1119334 bytes
+2024-11-11 18:43:47,839 - bandwidth_monitor - INFO - Logged bandwidth usage: 1119334 bytes
+2024-11-11 18:43:47,849 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1119334 bytes
+2024-11-11 18:43:47,849 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1119334 bytes
+2024-11-11 18:43:47,849 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1119334 bytes
+2024-11-11 18:44:04,277 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:44:04,277 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:44:04,277 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:44:35,833 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,833 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,833 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,834 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,834 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,834 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:44:35,890 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:44:35,890 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:44:35,890 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:44:35,898 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:44:35,898 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:44:35,898 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:45:35,938 - bandwidth_monitor - INFO - Logged bandwidth usage: 590505 bytes
+2024-11-11 18:45:35,938 - bandwidth_monitor - INFO - Logged bandwidth usage: 590505 bytes
+2024-11-11 18:45:35,938 - bandwidth_monitor - INFO - Logged bandwidth usage: 590505 bytes
+2024-11-11 18:45:35,946 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 590505 bytes
+2024-11-11 18:45:35,946 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 590505 bytes
+2024-11-11 18:45:35,946 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 590505 bytes
+2024-11-11 18:45:39,051 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:45:39,051 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:45:39,051 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:45:53,039 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:45:53,039 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:45:53,039 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:45:53,083 - bandwidth_monitor - INFO - Logged bandwidth usage: 66 bytes
+2024-11-11 18:45:53,083 - bandwidth_monitor - INFO - Logged bandwidth usage: 66 bytes
+2024-11-11 18:45:53,083 - bandwidth_monitor - INFO - Logged bandwidth usage: 66 bytes
+2024-11-11 18:45:53,090 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 66 bytes
+2024-11-11 18:45:53,090 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 66 bytes
+2024-11-11 18:45:53,090 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 66 bytes
+2024-11-11 18:46:53,154 - bandwidth_monitor - INFO - Logged bandwidth usage: 1383203 bytes
+2024-11-11 18:46:53,154 - bandwidth_monitor - INFO - Logged bandwidth usage: 1383203 bytes
+2024-11-11 18:46:53,154 - bandwidth_monitor - INFO - Logged bandwidth usage: 1383203 bytes
+2024-11-11 18:46:53,163 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1383203 bytes
+2024-11-11 18:46:53,163 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1383203 bytes
+2024-11-11 18:46:53,163 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 1383203 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Logged bandwidth usage: 442706 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Logged bandwidth usage: 442706 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Logged bandwidth usage: 442706 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 442706 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 442706 bytes
+2024-11-11 18:47:53,188 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 442706 bytes
+2024-11-11 18:48:53,220 - bandwidth_monitor - INFO - Logged bandwidth usage: 316791 bytes
+2024-11-11 18:48:53,220 - bandwidth_monitor - INFO - Logged bandwidth usage: 316791 bytes
+2024-11-11 18:48:53,220 - bandwidth_monitor - INFO - Logged bandwidth usage: 316791 bytes
+2024-11-11 18:48:53,227 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 316791 bytes
+2024-11-11 18:48:53,227 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 316791 bytes
+2024-11-11 18:48:53,227 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 316791 bytes
+2024-11-11 18:48:59,262 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:48:59,262 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:48:59,262 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:50:17,398 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,398 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,398 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,399 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,399 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,399 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:50:17,468 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:50:17,468 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:50:17,468 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:50:17,470 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:50:17,470 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:50:17,470 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:51:13,332 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:51:13,332 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:51:13,332 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:51:17,568 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,568 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,568 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,569 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,569 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,569 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:51:17,616 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:51:17,616 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:51:17,616 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:51:17,618 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:51:17,618 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:51:17,618 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:52:17,689 - bandwidth_monitor - INFO - Logged bandwidth usage: 695634 bytes
+2024-11-11 18:52:17,689 - bandwidth_monitor - INFO - Logged bandwidth usage: 695634 bytes
+2024-11-11 18:52:17,689 - bandwidth_monitor - INFO - Logged bandwidth usage: 695634 bytes
+2024-11-11 18:52:17,718 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 695634 bytes
+2024-11-11 18:52:17,718 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 695634 bytes
+2024-11-11 18:52:17,718 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 695634 bytes
+2024-11-11 18:53:17,813 - bandwidth_monitor - INFO - Logged bandwidth usage: 397607 bytes
+2024-11-11 18:53:17,813 - bandwidth_monitor - INFO - Logged bandwidth usage: 397607 bytes
+2024-11-11 18:53:17,813 - bandwidth_monitor - INFO - Logged bandwidth usage: 397607 bytes
+2024-11-11 18:53:17,874 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 397607 bytes
+2024-11-11 18:53:17,874 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 397607 bytes
+2024-11-11 18:53:17,874 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 397607 bytes
+2024-11-11 18:53:21,358 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:53:21,358 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:53:21,358 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,551 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 18:54:05,596 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:54:05,596 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:54:05,596 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 18:54:05,598 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:54:05,598 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:54:05,598 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 18:55:05,631 - bandwidth_monitor - INFO - Logged bandwidth usage: 48576 bytes
+2024-11-11 18:55:05,631 - bandwidth_monitor - INFO - Logged bandwidth usage: 48576 bytes
+2024-11-11 18:55:05,631 - bandwidth_monitor - INFO - Logged bandwidth usage: 48576 bytes
+2024-11-11 18:55:05,639 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 48576 bytes
+2024-11-11 18:55:05,639 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 48576 bytes
+2024-11-11 18:55:05,639 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 48576 bytes
+2024-11-11 18:55:57,066 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:55:57,066 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 18:55:57,066 - bandwidth_monitor - INFO - Received signal 2, exiting gracefully...
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,860 - bandwidth_monitor - INFO - Database initialized successfully.
+2024-11-11 19:04:02,908 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 19:04:02,908 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 19:04:02,908 - bandwidth_monitor - INFO - Logged bandwidth usage: 0 bytes
+2024-11-11 19:04:02,909 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 19:04:02,909 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 19:04:02,909 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 0 bytes
+2024-11-11 19:05:02,951 - bandwidth_monitor - INFO - Logged bandwidth usage: 409294 bytes
+2024-11-11 19:05:02,951 - bandwidth_monitor - INFO - Logged bandwidth usage: 409294 bytes
+2024-11-11 19:05:02,951 - bandwidth_monitor - INFO - Logged bandwidth usage: 409294 bytes
+2024-11-11 19:05:02,959 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 409294 bytes
+2024-11-11 19:05:02,959 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 409294 bytes
+2024-11-11 19:05:02,959 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 409294 bytes
+2024-11-11 19:06:03,012 - bandwidth_monitor - INFO - Logged bandwidth usage: 57255 bytes
+2024-11-11 19:06:03,012 - bandwidth_monitor - INFO - Logged bandwidth usage: 57255 bytes
+2024-11-11 19:06:03,012 - bandwidth_monitor - INFO - Logged bandwidth usage: 57255 bytes
+2024-11-11 19:06:03,024 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 57255 bytes
+2024-11-11 19:06:03,024 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 57255 bytes
+2024-11-11 19:06:03,024 - bandwidth_monitor - INFO - Updated monthly bandwidth usage for 2024-11: 57255 bytes
