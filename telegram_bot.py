@@ -16,8 +16,8 @@ application = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 # Adjust the connection pool size and timeout
-bot.request.pool_size = 10  # Increase the pool size
-bot.request.pool_timeout = 60  # Increase the pool timeout
+bot.request.pool_size = 100  # Increase the pool size
+bot.request.pool_timeout = 600  # Increase the pool timeout
 
 async def send_telegram_message(message):
     await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)

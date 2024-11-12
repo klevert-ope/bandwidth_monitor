@@ -19,7 +19,6 @@ def get_network_usage():
 def main():
     # Initialize the database
     init_db()
-    logger.info("Database initialized successfully.")
 
     # Initialize variables
     start_time = datetime.now()

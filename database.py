@@ -36,7 +36,6 @@ def log_bandwidth_usage(bytes_used):
     try:
         c.execute('INSERT INTO bandwidth_usage (bytes_used) VALUES (?)', (bytes_used,))
         conn.commit()
-        logger.info(f"Logged bandwidth usage: {bytes_used} bytes")
     except sqlite3.Error as e:
         logger.error(f"Error logging bandwidth usage: {e}")
     finally:
@@ -54,7 +53,6 @@ def update_monthly_bandwidth_usage(bytes_used):
         else:
             c.execute('INSERT INTO monthly_bandwidth_usage (month, bytes_used) VALUES (?, ?)', (month, bytes_used))
         conn.commit()
-        logger.info(f"Updated monthly bandwidth usage for {month}: {bytes_used} bytes")
     except sqlite3.Error as e:
         logger.error(f"Error updating monthly bandwidth usage: {e}")
     finally:
@@ -80,7 +78,6 @@ def get_daily_bandwidth_usage():
     try:
         c.execute('SELECT SUM(bytes_used) FROM bandwidth_usage WHERE timestamp >= ?', (start_of_day,))
         daily_bytes = c.fetchone()[0]
-        logger.info(f"Daily bandwidth usage: {daily_bytes} bytes")
         return daily_bytes if daily_bytes else 0
     except sqlite3.Error as e:
         logger.error(f"Error getting daily bandwidth usage: {e}")
