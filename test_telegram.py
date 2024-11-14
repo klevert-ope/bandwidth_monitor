@@ -1,43 +1,64 @@
 import os
-import asyncio
-from telegram import Bot
-from telegram.ext import ApplicationBuilder
-from telegram.error import TimedOut
+import time
+import pytest
+import requests
 
-# Load environment variables
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', 'YOUR_TELEGRAM_CHAT_ID')
+from telegram_bot import send_message_sync
 
-# Initialize the Telegram bot
-application = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
-bot = Bot(token=TELEGRAM_BOT_TOKEN)
+# Set up the Telegram bot
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+BASE_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
-# Initial connection pool size and timeout
-bot.request.pool_size = 10
-bot.request.pool_timeout = 10
 
-async def send_test_message():
-    message = "📢 Test message from Bandwidth Monitor!"
+def clear_updates():
+    """Clear existing updates to start fresh."""
+    requests.get(f"{BASE_URL}/getUpdates", params={"offset": -1})
+
+def get_updates(offset=None):
+    """Retrieve the latest updates from Telegram, optionally with an offset."""
+    params = {"offset": offset} if offset else {}
     try:
-        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)
-        print("Test message sent successfully!")
-    except TimedOut:
-        print("TimedOut exception encountered. Adjusting pool settings.")
-        adjust_pool_settings()
-        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)
-        print("Test message sent successfully after adjusting pool settings!")
+        response = requests.get(f"{BASE_URL}/getUpdates", params=params)
+        response.raise_for_status()
+        return response.json().get('result', [])
+    except requests.RequestException as e:
+        print(f"Failed to retrieve updates: {e}")
+        return []
 
-def adjust_pool_settings():
-    global bot
-    # Increase pool size and timeout
-    new_pool_size = min(bot.request.pool_size * 2, 100)  # Limit to a reasonable maximum
-    new_pool_timeout = min(bot.request.pool_timeout * 2, 600)  # Limit to a reasonable maximum
+@pytest.fixture(scope="function", autouse=True)
+def setup_and_teardown():
+    # Clear updates before and after each test
+    clear_updates()
+    yield
+    clear_updates()
 
-    # Update the bot's request settings
-    bot.request.pool_size = new_pool_size
-    bot.request.pool_timeout = new_pool_timeout
+def test_send_message():
+    test_message = "This is a test message from the Telegram bot."
 
-    print(f"Adjusted pool size to {new_pool_size} and pool timeout to {new_pool_timeout}")
+    # Send the test message
+    send_message_sync(test_message)
+
+    # Retry to get updates with offset
+    retries = 10
+    updates = []
+    last_update_id = None
+    for _ in range(retries):
+        time.sleep(5)
+        updates = get_updates(offset=last_update_id)
+
+        if updates:
+            last_update_id = updates[-1]["update_id"] + 1
+            if any(update.get('message', {}).get('text') == test_message for update in updates):
+                break
+
+    # Log the updates for debugging
+    print("Updates:", updates)
+
+    # Verify if the test message is in the updates
+    assert len(updates) > 0, "No updates found."
+    assert any(update.get('message', {}).get('text') == test_message for update in updates), \
+        "Test message not found in updates."
+
 
 if __name__ == "__main__":
-    asyncio.run(send_test_message())
+    pytest.main()
